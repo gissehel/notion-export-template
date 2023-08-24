@@ -10,3 +10,4 @@ cd ..
 
 git add .
 git commit -m "Export ${export_start}"
+git push
