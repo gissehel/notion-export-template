@@ -1,0 +1,3 @@
+[submodule "notion-export-workspace"]
+	path = notion-export-workspace
+	url = https://github.com/gissehel/notion-export-workspace
