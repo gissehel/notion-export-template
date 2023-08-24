@@ -1,7 +1,18 @@
 # notion-export-template
 
 Action to auto backup your notion workspace as a json set of files:
-* Fork this repo with a name like `notion-export-myproject` with myproject describing your project. Be sure to set the repo as private if you have private stuff in your repo.
+* Decide if you back is public or private (Note: Forks can't be private)
+    * For public backup (be carefull, if you have private stuff in your workspace, you should create a private repo)
+        * Fork this repo with a name like `notion-export-myproject` with myproject describing your project.
+    * For private backup (be carefull, if you have private stuff in your workspace, you should create a private repo)
+        * Create a new *private* repo with a name like `notion-export-myproject` with myproject describing your project.
+        * Clone this repo
+        * Remove remote origin
+            * git remote remove origin
+        * Add you new repo as origin
+            * git remote add origin https://github.com/{yourname}/{yourproject}
+        * Push the content to your repo
+            * git push -u origin master
 * Enable github actions
 * Create a Notion intergration
     * Go to https://www.notion.so/my-integrations and create an integration linked to your workspace
