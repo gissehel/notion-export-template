@@ -10,3 +10,10 @@ Action to auto backup your notion workspace as a json set of files:
         * In the "..." of the page, in the section "Connections", click on the "+", and select the name of you integration
 * Set repo secret `NOTION_TOKEN` to the token of your integration
 * Start the github action `backup` or wait 01:07 each day for backup to start
+
+# Disclamer
+
+This export is not supposed to be ready for any import of any kind.
+Neither the official export is suppoed to be ready for any import of any kind.
+
+This export is just a way to store the information in a way exploitable by a software "yet to write", so in case of a lose of workspace, the information is not totally lost. You'll still need to write something to extract the informations you've lost.
