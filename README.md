@@ -1,7 +1,7 @@
 # notion-export-template
 
 Action to auto backup your notion workspace as a json set of files:
-* Clone this repo with a name like `notion-export-myproject` with myproject describing your project. Be sure to set the repo as private if you have private stuff in your repo.
+* Fork this repo with a name like `notion-export-myproject` with myproject describing your project. Be sure to set the repo as private if you have private stuff in your repo.
 * Enable github actions
 * Create a Notion intergration
     * Go to https://www.notion.so/my-integrations and create an integration linked to your workspace
