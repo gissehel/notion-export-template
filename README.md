@@ -20,6 +20,8 @@ Action to auto backup your notion workspace as a json set of files:
     * Go to the root page of your workspace (or the root pages if several) and add the integration to the page...
         * In the "..." of the page, in the section "Connections", click on the "+", and select the name of you integration
 * Set repo secret `NOTION_TOKEN` to the token of your integration
+* Create a PAT (Personnal access token) in your profile (Settings -> Developper settings -> Personnal access token) with "repo" access
+* Set repo secret `PAT` to the value of the value of the PAT you just created
 * Start the github action `backup` or wait 01:07 each day for backup to start
 
 # Disclamer
