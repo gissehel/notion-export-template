@@ -5,7 +5,7 @@ cd notion-export-workspace
 rm -rf "${NOTION_EXPORT_PATH}"
 export_start=$(date +%Y%m%d-%H%M%S)
 yarn
-yarn start
+yarn start export --output "${NOTION_EXPORT_PATH}"
 cd ..
 
 git add .
